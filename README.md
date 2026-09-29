@@ -118,7 +118,10 @@ If you use this code, please cite the software and the associated article
 (manuscript submitted for publication); see [`CITATION.cff`](CITATION.cff).
 The software is archived on Zenodo:
 
-- version 1.0.0 (IJMPC submission): [10.5281/zenodo.23030677](https://doi.org/10.5281/zenodo.23030677)
+- all versions (always resolves to the latest):
+  [10.5281/zenodo.23030676](https://doi.org/10.5281/zenodo.23030676)
+- version 1.0.0 (IJMPC submission):
+  [10.5281/zenodo.23030677](https://doi.org/10.5281/zenodo.23030677)
 
 Development repository: <https://github.com/Camolina-uach/FDM-CN-Picard-GDSS>.
 
