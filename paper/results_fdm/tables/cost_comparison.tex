@@ -1,0 +1,22 @@
+\begin{tabular}{rrrrrrr}
+\toprule
+$N$ & LU setup & LU/step & LU wave & CG/step & CG/LU & CG wave \\
+ & (s) & (s) & (\%) & (s) & ratio & (\%) \\
+\midrule
+64 & 4.932e-02 & 1.102e-02 & 66.6 & 9.162e-02 & 8.3 & 95.5 \\
+128 & 4.066e-01 & 7.292e-02 & 70.8 & 1.307e+00 & 17.9 & 98.4 \\
+256 & 3.552e+00 & 3.753e-01 & 71.5 & 1.007e+01 & 26.8 & 99.0 \\
+512 & 4.056e+01 & 1.817e+00 & 75.6 & 8.940e+01 & 49.2 & 99.4 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{tabular}{rrrrr}
+\toprule
+$N$ & CG iter. (avg.) & CG iter. (max) & rel. $U$ diff. & rel. $Q$ diff. \\
+\midrule
+64 & 201.4 & 229 & 1.42e-16 & 2.60e-11 \\
+128 & 397.2 & 452 & 1.82e-16 & 2.68e-11 \\
+256 & 793.8 & 903 & 1.86e-16 & 2.54e-11 \\
+512 & 1619.6 & 1854 & 1.29e-16 & 1.12e-11 \\
+\bottomrule
+\end{tabular}

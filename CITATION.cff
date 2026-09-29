@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software and the associated article."
+title: "Conservative Crank-Nicolson-Picard finite-difference solver for the generalized Davey-Stewartson system"
+type: software
+version: 1.0.0
+date-released: 2026-09-29
+doi: 10.5281/zenodo.23030677
+license: MIT
+repository-code: "https://github.com/Camolina-uach/FDM-CN-Picard-GDSS"
+authors:
+  - family-names: "Molina-Holguín"
+    given-names: "Carlos Alberto"
+    orcid: "https://orcid.org/0009-0003-7469-595X"
+  - family-names: "Macías-Díaz"
+    given-names: "Jorge Eduardo"
+    orcid: "https://orcid.org/0000-0002-7580-7533"
+  - family-names: "Gallegos-Infante"
+    given-names: "Luis Armando"
+    orcid: "https://orcid.org/0000-0002-2866-4306"
+keywords:
+  - generalized Davey-Stewartson system
+  - Crank-Nicolson scheme
+  - conservative finite-difference method
+  - Picard iteration
+  - discrete conservation laws
+  - reproducible research
+preferred-citation:
+  type: article
+  title: "A conservative Crank-Nicolson-Picard finite-difference scheme for the generalized Davey-Stewartson system: discrete invariants and benchmark validation"
+  authors:
+    - family-names: "Molina-Holguín"
+      given-names: "Carlos Alberto"
+    - family-names: "Macías-Díaz"
+      given-names: "Jorge Eduardo"
+    - family-names: "Gallegos-Infante"
+      given-names: "Luis Armando"
+  journal: "International Journal of Modern Physics C"
+  notes: "Manuscript submitted for publication; add year, volume, pages, and DOI when available."
