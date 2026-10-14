@@ -1,6 +1,12 @@
 # Changelog
 
-## 1.0.0 — 2026-09-29 (IJMPC submission)
+## Unreleased
+
+- Documentation only: the README and `CITATION.cff` no longer name a journal
+  for the submitted manuscript, and both now point to the companion
+  FFT–Strang article (doi:10.1142/S0129183127501671). The code is unchanged.
+
+## 1.0.0 — 2026-09-29
 
 - First public release of the reproduction package for the manuscript "A
   conservative Crank–Nicolson–Picard finite-difference scheme for the

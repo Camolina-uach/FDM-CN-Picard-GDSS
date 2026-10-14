@@ -120,10 +120,22 @@ The software is archived on Zenodo:
 
 - all versions (always resolves to the latest):
   [10.5281/zenodo.23030676](https://doi.org/10.5281/zenodo.23030676)
-- version 1.0.0 (IJMPC submission):
+- version 1.0.0 (version used in the submitted manuscript):
   [10.5281/zenodo.23030677](https://doi.org/10.5281/zenodo.23030677)
 
 Development repository: <https://github.com/Camolina-uach/FDM-CN-Picard-GDSS>.
+
+## Related work
+
+A companion study treats the same GDSS on periodic domains with a Fourier
+pseudo-spectral Strang splitting:
+
+> C. A. Molina-Holguín, J. E. Macías-Díaz, L. A. Gallegos-Infante,
+> R. Jaimes-Reátegui, M. A. Martínez-Herrera, "A reproducible FFT-based
+> Strang-splitting baseline for the generalized Davey–Stewartson system",
+> *International Journal of Modern Physics C* (published online 2026),
+> [doi:10.1142/S0129183127501671](https://doi.org/10.1142/S0129183127501671).
+> Code: [doi:10.5281/zenodo.22891244](https://doi.org/10.5281/zenodo.22891244).
 
 The article DOI will be added after publication. Changes between versions are
 listed in [`CHANGELOG.md`](CHANGELOG.md).

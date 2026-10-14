@@ -34,5 +34,21 @@ preferred-citation:
       given-names: "Jorge Eduardo"
     - family-names: "Gallegos-Infante"
       given-names: "Luis Armando"
-  journal: "International Journal of Modern Physics C"
-  notes: "Manuscript submitted for publication; add year, volume, pages, and DOI when available."
+  notes: "Manuscript submitted for publication; the journal, year, volume, pages, and DOI will be added after acceptance."
+references:
+  - type: article
+    title: "A reproducible FFT-based Strang-splitting baseline for the generalized Davey-Stewartson system"
+    authors:
+      - family-names: "Molina-Holguín"
+        given-names: "Carlos Alberto"
+      - family-names: "Macías-Díaz"
+        given-names: "Jorge Eduardo"
+      - family-names: "Gallegos-Infante"
+        given-names: "Luis Armando"
+      - family-names: "Jaimes-Reátegui"
+        given-names: "R."
+      - family-names: "Martínez-Herrera"
+        given-names: "M. A."
+    journal: "International Journal of Modern Physics C"
+    year: 2026
+    doi: 10.1142/S0129183127501671
