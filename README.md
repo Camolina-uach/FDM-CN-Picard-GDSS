@@ -120,8 +120,11 @@ The software is archived on Zenodo:
 
 - all versions (always resolves to the latest):
   [10.5281/zenodo.23030676](https://doi.org/10.5281/zenodo.23030676)
-- version 1.0.0 (version used in the submitted manuscript):
-  [10.5281/zenodo.23030677](https://doi.org/10.5281/zenodo.23030677)
+- version 1.0.0: [10.5281/zenodo.23030677](https://doi.org/10.5281/zenodo.23030677)
+
+Version 1.0.1 changes only the documentation of version 1.0.0, so the code and
+the numerical results are the same. The article DOI will be added after
+publication. Changes between versions are listed in [`CHANGELOG.md`](CHANGELOG.md).
 
 Development repository: <https://github.com/Camolina-uach/FDM-CN-Picard-GDSS>.
 
@@ -136,9 +139,6 @@ pseudo-spectral Strang splitting:
 > *International Journal of Modern Physics C* (published online 2026),
 > [doi:10.1142/S0129183127501671](https://doi.org/10.1142/S0129183127501671).
 > Code: [doi:10.5281/zenodo.22891244](https://doi.org/10.5281/zenodo.22891244).
-
-The article DOI will be added after publication. Changes between versions are
-listed in [`CHANGELOG.md`](CHANGELOG.md).
 
 ## License
 

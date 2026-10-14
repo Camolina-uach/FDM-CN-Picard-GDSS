@@ -36,7 +36,7 @@ def _packet(g, x0, y0, A, w0, kx, ky):
 
 
 def _collision_grid(snaps, snap_t, ext, field, fname):
-    """Print-size 2x2 grid (5 in wide, the IJMPC text width) of |u| (field=0)
+    """Print-size 2x2 grid (5 in wide, a journal text width) of |u| (field=0)
     or Q (field=1) at the four snapshot times; Q uses limits symmetric about 0."""
     label, cmap = ("$|u|$", "viridis") if field == 0 else ("$Q$", "RdBu_r")
     with plt.rc_context({"font.size": 8, "axes.titlesize": 9}):
@@ -88,7 +88,7 @@ def collision(N=128, L=16.0, T=6.0, dt=0.02):
         im1 = axes[1, j].imshow(Q, extent=ext, origin="lower", cmap="RdBu_r")
         axes[1, j].set_title(f"$Q$, $t={st:g}$"); plt.colorbar(im1, ax=axes[1, j], fraction=0.046)
     plt.tight_layout(); plt.savefig(os.path.join(IMG, "collision_snapshots.png"), dpi=130); plt.close()
-    # separate |u| and Q figures at print size for the IJMPC version
+    # separate |u| and Q figures at print size for the journal version
     _collision_grid(snaps, snap_t, ext, 0, "collision_absu.png")
     _collision_grid(snaps, snap_t, ext, 1, "collision_Q.png")
     plt.figure(figsize=(6, 4))

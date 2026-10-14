@@ -1,10 +1,15 @@
 # Changelog
 
-## Unreleased
+## 1.0.1 — 2026-10-14
 
 - Documentation only: the README and `CITATION.cff` no longer name a journal
   for the submitted manuscript, and both now point to the companion
-  FFT–Strang article (doi:10.1142/S0129183127501671). The code is unchanged.
+  FFT–Strang article (doi:10.1142/S0129183127501671).
+- `CITATION.cff` gives the Zenodo concept DOI (10.5281/zenodo.23030676), which
+  resolves to the latest version, and lists the DOI of version 1.0.0.
+- Two comments in `code/gdss_fdm_experiments4.py` no longer name a journal.
+- No executable code, reference table, figure, or numerical result changed:
+  `run_all.py` reproduces the outputs of version 1.0.0.
 
 ## 1.0.0 — 2026-09-29
 

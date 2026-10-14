@@ -2,9 +2,16 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the software and the associated article."
 title: "Conservative Crank-Nicolson-Picard finite-difference solver for the generalized Davey-Stewartson system"
 type: software
-version: 1.0.0
-date-released: 2026-09-29
-doi: 10.5281/zenodo.23030677
+version: 1.0.1
+date-released: 2026-10-14
+doi: 10.5281/zenodo.23030676
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23030676
+    description: "Concept DOI: all versions, resolves to the latest one"
+  - type: doi
+    value: 10.5281/zenodo.23030677
+    description: "Version 1.0.0"
 license: MIT
 repository-code: "https://github.com/Camolina-uach/FDM-CN-Picard-GDSS"
 authors:
